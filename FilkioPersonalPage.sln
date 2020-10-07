@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilkioPersonalPage", "FilkioPersonalPage\FilkioPersonalPage.csproj", "{1EA12AC4-BC4D-4312-93AB-3E28EB63C4FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilkioPersonalBot", "FilkioPersonalBot\FilkioPersonalBot\FilkioPersonalBot.csproj", "{7CAD4DE7-5773-4964-A196-31DB6E79BE64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EA12AC4-BC4D-4312-93AB-3E28EB63C4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA12AC4-BC4D-4312-93AB-3E28EB63C4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA12AC4-BC4D-4312-93AB-3E28EB63C4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA12AC4-BC4D-4312-93AB-3E28EB63C4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAD4DE7-5773-4964-A196-31DB6E79BE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAD4DE7-5773-4964-A196-31DB6E79BE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAD4DE7-5773-4964-A196-31DB6E79BE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAD4DE7-5773-4964-A196-31DB6E79BE64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {724BA645-407C-42CA-8CD0-81F83EA55785}
+	EndGlobalSection
+EndGlobal

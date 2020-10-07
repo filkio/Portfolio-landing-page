@@ -1,0 +1,157 @@
+html
+{
+    font-size: 16px;
+}
+body
+{
+    background: rgb(9,9,9);
+    background-image: url(itsMEred.png);
+    background-size: 50em;
+    background-position: top left;
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+a
+{
+color: rgb(239, 237, 245);
+font-family: fantasy;
+border-radius: 0.55em;
+border-width: 0.1em;
+border-color: rgba(232,8,8,0.3);
+border-style: solid;
+padding: 0.5em;
+text-decoration: none;
+transition: 0.2s;
+}   
+a:hover
+{
+    color: rgb(155, 153, 161);
+    background: rgba(0,0,0,0.6);
+    border-color: rgba(232,8,8,0.5);
+}
+header
+{
+    color: whitesmoke;
+    background: rgba(0,0,0,0.5);
+    min-width: 108em;
+}
+
+nav.subscribe
+{
+    max-width: 8em;
+    margin-left: auto;
+    margin-top: 0.7em;
+    text-align: right;
+}
+nav.subscribe a
+{
+    font-size: 1em;
+}
+
+nav.main
+{
+    max-width: 30em;
+    min-height: 1em;
+    margin-left: auto;
+    margin-top: 0.7em;
+    position: relative;
+    bottom: 3.5em;
+    max-height: 1em;
+    text-align: right;
+}
+nav.main a
+{
+    margin-left: 20px;
+    font-size: 1em;
+}
+.hr-circle
+{
+    border: 0;
+    height: 0.1em;
+    background: #000;
+    background-image: -webkit-linear-gradient(left, rgb(232,8,8), rgb(0,0,0));
+}
+.padding-header
+{
+    padding-left: 2em;
+}
+h1
+{
+    min-width: 20%;
+}
+
+h2
+{
+    color: rgb(232,8,8);
+    font-size: 2em;
+}
+.article-info
+{
+padding: 0;
+padding-left: 47em;
+padding-top: 13em;
+width: 48em;
+text-align: right;
+font-weight: 500;
+
+}
+.article-info h2
+{
+    text-shadow: 0px 2px 5px rgba(232,8,8,0.7);
+    line-height: 1.2;
+    
+}   
+.article-info p
+{
+    font-size: 1.8em;
+    color: rgb(239,237,245);
+    line-height: 1.2;
+    width: 55em;
+}
+strong
+{
+    color: rgb(232,8,8);
+}
+.label
+{
+    font-size: 1.8em;
+    color: rgba(239,237,245,0.7);
+    line-height: 1.2;
+    width: 55em;
+}
+input {
+    width: 300px;
+    height: 22px;
+    font-size: 15px;
+    color: rgba(239,237,245,0.7);
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: transparent;
+	border-radius: 8px;
+}
+.submit
+{
+    cursor: pointer;
+    border: 1px solid rgba(232,8,8,0.3);
+    color: rgb(239,237,245);
+    background: transparent;
+	border-radius: 8px;
+    padding: 8px 14px;
+    margin-top: 2em;
+    width: 120px;
+    transition: 0.2s;
+}
+.submit:hover {
+    color: rgb(155, 153, 161);
+    background: rgba(0,0,0,0.6);
+    border-color: rgba(232,8,8,0.5);
+}
+.validation-summary-errors ul li {
+    color: rgb(232,8,8);
+    font-size: 1em;
+    list-style-type: none;
+}
+
+

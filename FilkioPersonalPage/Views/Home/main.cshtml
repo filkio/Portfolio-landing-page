@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/hello.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="subscribe">
+            <a asp-action="subscribe">Подписаться</a>
+        </nav>
+
+        <hr class="hr-circle">
+
+        <h1 class="padding-header">Филипп Романов</h1>
+        <nav class="main">
+            <a asp-action="Index">Главная</a>
+            <a asp-action="aboutme">Обо мне</a>
+            <a asp-action="contact">Мои проекты</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <article class="article-info">
+            <h2 class="main">НАЧИНАЮЩИЙ РАЗРАБОТЧИК</h2>
+            <p>Добро пожаловать на мою страницу. Я начинающий .net разработчик. Моя цель - получение навыков, необходимых для работы. Если ВЫ заинтересованы в моих уже имеющихся навыках, то приглашаю ВАС ознакомиться.</p>
+            <p class="main" id='button-p'><a asp-action="aboutme" id='button-txt'>Подробнее обо мне</a></p>
+        </article>
+    </main>
+
+</body>
+</html>

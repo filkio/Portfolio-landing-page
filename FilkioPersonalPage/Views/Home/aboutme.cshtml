@@ -1,0 +1,50 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Обо мне</title>
+    <link rel="stylesheet" href="~/css/aboutme.css">
+</head>
+<body>
+    <header>
+
+        <nav class="subscribe">
+            <a asp-action="subscribe">Подписаться</a>
+        </nav>
+
+        <hr class="hr-circle">
+
+        <h1 class="padding-header">Информация обо мне</h1>
+        <nav class="main">
+            <a asp-action="Index">Главная</a>
+            <a asp-action="aboutme">Обо мне</a>
+            <a asp-action="contact">Мои проекты</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <article class="article-info">
+            <h2 class="main">КЛЮЧЕВЫЕ НАВЫКИ</h2>
+            <p><strong>C#</strong> - основы языка.</p>
+            <p><strong>Entity framework</strong> - основы. Code/model/database first.</p>
+            <p><strong>Windows Forms</strong> - основы, базовые элементы, события.</p>
+            <p><strong>MySql, MsSql</strong> - Н.Ф., запросы, триггеры, join, group by, хранимые процедуры и пр.</p>
+            <p><strong>HTML, CSS</strong> - основы.</p>
+            <p><strong>ASP.NET Core MVC 2.0</strong> - начальные знания.</p>
+            <p class="main" id='button-p'><a asp-action="contact" id='button-txt'>Мои проекты</a></p>
+        </article>
+
+        <article class="article-info">
+            <h2 class="main">ОБРАЗОВАНИЕ</h2>
+            <p><strong>Высшее:</strong> бакалавриат</p>
+            <p><strong>Учебное заведение:</strong> МГТУ им. Н.Э.Баумана</p>
+            <p><strong>Код направления:</strong> 09.03.01</p>
+        </article>
+        <!--https://github.com/filkio-->
+    </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+﻿@model FilkioPersonalPage.Models.SubResponce
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Подписаться</title>
+    <link rel="stylesheet" href="~/css/subscribe.css">
+</head>
+<body>
+    <header>
+
+        <nav class="subscribe">
+            <a asp-action="subscribe">Подписаться</a>
+        </nav>
+
+        <hr class="hr-circle">
+
+        <h1 class="padding-header">Подписаться</h1>
+        <nav class="main">
+            <a asp-action="Index">Главная</a>
+            <a asp-action="aboutme">Обо мне</a>
+            <a asp-action="contact">Мои проекты</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <article class="article-info">
+
+            <div>
+                <div><h2>Подписаться на рассылку</h2></div>
+                <div>
+                    <form asp-action="subscribe" method="post">
+                        <div asp-validation-summary="All"></div>
+
+                        <div>
+                            <label class="label" asp-for="Name">Ваше имя:</label>
+                            <input asp-for="Name" placeholder="Имя" />
+                        </div>
+
+                        <div>
+                            <label class="label" asp-for="EMail">Ваш EMail:</label>
+                            <input asp-for="EMail" placeholder="EMail" />
+                        </div>
+
+                        <div>
+                            <label class="label" asp-for="Phone">Ваш телефон:</label>
+                            <input asp-for="Phone" placeholder="Телефон" />
+                        </div>
+                        <div>
+                            <button class="submit" type="submit">Подписаться</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
+

@@ -1,0 +1,37 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Проекты</title>
+    <link rel="stylesheet" href="~/css/contact.css">
+</head>
+<body>
+    <header>
+
+        <nav class="subscribe">
+            <a asp-action="subscribe">Подписаться</a>
+        </nav>
+
+        <hr class="hr-circle">
+
+        <h1 class="padding-header">Мои проекты</h1>
+        <nav class="main">
+            <a asp-action="Index">Главная</a>
+            <a asp-action="aboutme">Обо мне</a>
+            <a asp-action="contact">Мои проекты</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <article class="article-info">
+            <h2 class="main">Github</h2>
+            <p>Вы можете ознакомиться с моими проектами на <strong>Github</strong> по ссылке ниже.</p>
+            <p class="main" id='button-p'><a href="https://github.com/filkio" id='button-txt'>Мой Github</a></p>
+        </article>
+    </main>
+</body>
+</html>
